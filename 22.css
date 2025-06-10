@@ -1,0 +1,86 @@
+
+
+body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: var(--dark-bg);
+      color: var(--text-light);
+      line-height: 1.7;
+    }
+
+
+/* Main Content */
+    main.contain {
+      max-width: 1400px;
+      margin: 2rem auto;
+      padding: 0 5%;
+    }
+
+    .app-down {
+      background: var(--card-bg);
+      padding: 3rem;
+      border-radius: 12px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+
+    .app-down h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: var(--accent-blue);
+    }
+
+    .app-down p {
+      margin-bottom: 1.5rem;
+      color: #aaa;
+    }
+
+    .down-box {
+      background: rgba(26, 29, 39, 0.7);
+      padding: 1.5rem;
+      border-radius: 8px;
+      margin: 1.5rem 0;
+      border-left: 3px solid var(--accent-purple);
+    }
+
+    .down-btn {
+      display: inline-block;
+      background: linear-gradient(to right, var(--accent-blue), var(--accent-green));
+      color: var(--dark-bg);
+      padding: 0.8rem 2rem;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      margin: 1rem 0;
+      transition: var(--transition);
+      border: none;
+      cursor: pointer;
+    }
+
+    .down-btn:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 5px 15px rgba(0, 243, 255, 0.3);
+    }
+
+    .not {
+      color: #aaa;
+      font-size: 0.9rem;
+      margin-top: 1rem;
+    }
+
+
+      
+      .app-down {
+        padding: 2rem;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .app-down {
+        padding: 1.5rem;
+      }
+      
+      .app-down h2 {
+        font-size: 1.5rem;
+      }
+    }
